@@ -1,0 +1,954 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+
+   
+<meta name="viewport" content="width=device-width">
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+       
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css /">
+    <link rel="stylesheet" href="Css/Style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"> 
+      <link rel="stylesheet" href="https://unpkg.com/beerslider/dist/BeerSlider.css">
+      <link rel="stylesheet" href="Css/jquery.horizontalmenu.css">
+    <title>Foto Pixels</title>
+  </head>
+  <body>
+    
+      
+      <div class="sub-header">
+          <div class="wrapper">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-9">
+          <div class="sub-menu">
+              <ul>
+                  <li><a href="#">Call or Whats app: +1-2452482451 </a></li>
+                  <li><a href="#">Info@fotopixels.com </a></li>
+                  <li><a href="#">fotopixels.com </a></li>
+              </ul>
+              </div>
+              </div>
+              <div class="col-sm-3">
+          <div class="search">
+              <input type="search" placeholder="Enter Keywords" required>
+              <input type="submit" value="">
+                  </div>
+              </div>
+          </div>
+          </div>
+          </div>
+      </div>
+      
+     <header class=" float-panel"  data-top="0" data-scroll="800">
+  
+   <nav class="navbar navbar-edit">
+       <div class="wrapper">
+  <div class="container">
+    <div class="navbar-header nav-brand-edit">
+      <a class="navbar-brand " href="#"><img src="img/logo.png" width="100%"></a>
+    </div>
+    <ul class="nav navbar-nav navbar-right navbar-ul-edit">
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Feature <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <!--<li class="divider"></li>
+            <li class="dropdown-header">Nav header</li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>-->
+          </ul>
+        </li>
+      <li><a href="#">How it is work</a></li>
+      <li><a href="#">Contact us</a></li>
+      <li class="background-butt"><a href="#" >Log In</a></li>
+      <li class="background-butt"><a href="#" class="pad-right-0">Register now</a></li>
+        
+         
+    </ul>
+  </div>
+       </div>
+</nav>
+ 
+</header>
+
+      <div class="responsive-header">
+      
+          <div class=" float-panel"  data-top="0" data-scroll="800">
+              <div class="container">
+              <div class="row">
+              <div class="col-sm-12">
+              <div class="logo">
+          <img src="img/logo.png">
+                  </div>
+                  
+                  
+                 
+                  <div class="toggle-nav">
+                      <span style="font-size:30px;cursor:pointer; color: #fff;" onclick="openNav()">&#9776;</span>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+          
+          
+          
+          <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+          
+          
+      </div>  
+      
+      <!--<div class="banner-backg"></div>-->
+      <div class="banner-backg video-hero jquery-background-video-wrapper demo-video-wrapper">
+  <video class="jquery-background-video" autoplay muted loop poster="https://d2ezlykacdqcnj.cloudfront.net/_assets/home-video/beach-waves-loop.jpg">
+    <source src="video/Pexels-Videos-1957913.mp4" type="video/mp4">
+  <!--  <source src="https://d2ezlykacdqcnj.cloudfront.net/_assets/home-video/beach-waves-loop.webm" type="video/webm">
+    <source src="https://d2ezlykacdqcnj.cloudfront.net/_assets/home-video/beach-waves-loop.ogv" type="video/ogg">-->
+  </video>
+	  <div class="video-overlay"></div>
+  	<div class="page-width">
+		    <div class="video-hero--content">
+			      <h2>Background Video Demo</h2>
+			      <p>Full width video hero</p>
+    		</div>
+  	</div>
+</div>
+      
+      
+      
+      <div class="mid-start-part">
+      <div class="container">
+     
+          <div class="section">
+              <div class="row"> 
+              <div class="col-sm-4">
+                  <div class="image-process">
+                      <div class="image-process-img">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgLTI0IDQ4MCA0ODAiIHdpZHRoPSI2NHB4Ij48cGF0aCBkPSJtNDU2IDcyaC0xMDR2LTMyYy0uMDI3MzQ0LTIyLjA4MjAzMS0xNy45MTc5NjktMzkuOTcyNjU2Mi00MC00MGgtMTQ0Yy0yMi4wODIwMzEuMDI3MzQzOC0zOS45NzI2NTYgMTcuOTE3OTY5LTQwIDQwdjMyaC0xMDRjLTEzLjI1MzkwNiAwLTI0IDEwLjc0NjA5NC0yNCAyNHYxNzguMDc4MTI1Yy4wNTA3ODEyIDEwLjE0ODQzNyA2LjQ0NTMxMiAxOS4xNzU3ODEgMTYgMjIuNTg1OTM3djExMS4zMzU5MzhjMCAxMy4yNTM5MDYgMTAuNzQ2MDk0IDI0IDI0IDI0aDQwMGMxMy4yNTM5MDYgMCAyNC0xMC43NDYwOTQgMjQtMjR2LTExMS4zMjgxMjVjOS41NTQ2ODgtMy40MTQwNjMgMTUuOTUzMTI1LTEyLjQ0NTMxMyAxNi0yMi41OTM3NXYtMTc4LjA3ODEyNWMwLTEzLjI1MzkwNi0xMC43NDYwOTQtMjQtMjQtMjR6bS0zMTItMzJjMC0xMy4yNTM5MDYgMTAuNzQ2MDk0LTI0IDI0LTI0aDE0NGMxMy4yNTM5MDYgMCAyNCAxMC43NDYwOTQgMjQgMjR2MzJoLTE2di0zMmMwLTQuNDE3OTY5LTMuNTgyMDMxLTgtOC04aC0xNDRjLTQuNDE3OTY5IDAtOCAzLjU4MjAzMS04IDh2MzJoLTE2em0xNjAgMzJoLTEyOHYtMjRoMTI4em0xNDQgMzM2YzAgNC40MTc5NjktMy41ODIwMzEgOC04IDhoLTQwMGMtNC40MTc5NjkgMC04LTMuNTgyMDMxLTgtOHYtMTA4LjU4NTkzOGwxNzYgMjQuMjczNDM4djIwLjMxMjVjMCAxMy4yNTM5MDYgMTAuNzQ2MDk0IDI0IDI0IDI0aDE2YzEzLjI1MzkwNiAwIDI0LTEwLjc0NjA5NCAyNC0yNHYtMjAuMzEyNWwxNzYtMjQuMjczNDM4em0tMTkyLTY0YzAgNC40MTc5NjktMy41ODIwMzEgOC04IDhoLTE2Yy00LjQxNzk2OSAwLTgtMy41ODIwMzEtOC04di00OGMwLTQuNDE3OTY5IDMuNTgyMDMxLTggOC04aDE2YzQuNDE3OTY5IDAgOCAzLjU4MjAzMSA4IDh6bTIwOC02OS45MjE4NzVjLjAwMzkwNiAzLjk4ODI4MS0yLjkyOTY4OCA3LjM3MTA5NC02Ljg3ODkwNiA3LjkyOTY4N2wtMi4yMTg3NS4zMDQ2ODgtMTgyLjkwMjM0NCAyNS4yMjI2NTZ2LTExLjUzNTE1NmMwLTEzLjI1MzkwNi0xMC43NDYwOTQtMjQtMjQtMjRoLTE2Yy0xMy4yNTM5MDYgMC0yNCAxMC43NDYwOTQtMjQgMjR2MTEuNTM1MTU2bC0xODUuMTEzMjgxLTI1LjUyNzM0NGMtMy45NDkyMTktLjU1NDY4Ny02Ljg5MDYyNS0zLjkzNzUtNi44ODY3MTktNy45Mjk2ODd2LTE3OC4wNzgxMjVjMC00LjQxNzk2OSAzLjU4MjAzMS04IDgtOGg0MzJjNC40MTc5NjkgMCA4IDMuNTgyMDMxIDggOHptMCAwIiBmaWxsPSIjMDAwMDAwIi8+PC9zdmc+Cg==" />
+                      </div>
+                      <div class="image-process-text">
+                          <h2> Image Professional </h2>
+                          <p> Lorem Ipsum is simply dummy printing and typesetting industrLorem Ipsum has been the indusstandard dummy text ever since  </p>
+                            
+                      </div>
+                      <a href="#learn"> Learn More </a>
+                  </div>
+                  </div>
+               <div class="col-sm-4">
+                  <div class="image-process">
+                      <div class="image-process-img">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0cHgiPjxwYXRoIGQ9Im02MSAxNmgtNThhMSAxIDAgMCAwIC0xIDF2MTRhMSAxIDAgMCAwIDEgMWg1OGExIDEgMCAwIDAgMS0xdi0xNGExIDEgMCAwIDAgLTEtMXptLTU3IDJoNDF2MTJoLTQxem01NiAxMmgtMTN2LTEyaDEzeiIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im01MyAyNi41YTIuOTUxIDIuOTUxIDAgMCAwIDEuMjg1LS4zbDEuNTA4IDEuNTA4IDEuNDE0LTEuNDE0LTEuNTA3LTEuNTA5YTIuOTUxIDIuOTUxIDAgMCAwIC4zLTEuMjg1IDMgMyAwIDEgMCAtMyAzem0wLTRhMSAxIDAgMSAxIC0xIDEgMSAxIDAgMCAxIDEtMXoiIGZpbGw9IiMwMDAwMDAiLz48cGF0aCBkPSJtNiAzNHYxOGE0IDQgMCAwIDAgNCA0aDI3di0yaC0yN2EyIDIgMCAwIDEgLTItMnYtMTh6IiBmaWxsPSIjMDAwMDAwIi8+PHBhdGggZD0ibTU2IDM0aDJ2M2gtMnoiIGZpbGw9IiMwMDAwMDAiLz48cGF0aCBkPSJtNTggMTR2LThhNCA0IDAgMCAwIC00LTRoLTQ0YTQgNCAwIDAgMCAtNCA0djhoMnYtMmg0OHYyem0tNTAtNHYtNGEyIDIgMCAwIDEgMi0yaDQ0YTIgMiAwIDAgMSAyIDJ2NHoiIGZpbGw9IiMwMDAwMDAiLz48cGF0aCBkPSJtMTAgNmgydjJoLTJ6IiBmaWxsPSIjMDAwMDAwIi8+PHBhdGggZD0ibTE0IDZoMnYyaC0yeiIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im0xOCA2aDJ2MmgtMnoiIGZpbGw9IiMwMDAwMDAiLz48cGF0aCBkPSJtNiAyNmgydjJoLTJ6IiBmaWxsPSIjMDAwMDAwIi8+PHBhdGggZD0ibTEwIDI2aDMzdjJoLTMzeiIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im02MS4yNDIgNDYuMzc1LTIuMjE1LS41NTRhMTAuNDYgMTAuNDYgMCAwIDAgLS42OS0xLjY2MmwxLjE3Ni0xLjk1OWExIDEgMCAwIDAgLS4xNS0xLjIyMWwtMi4zNDEtMi4zNDFhMSAxIDAgMCAwIC0xLjIyMS0uMTUxbC0xLjk2IDEuMTc2Yy0uMjM2LS4xMjMtLjQ3OC0uMjM3LS43MjMtLjM0MnEtLjQ1OS0uMi0uOTM3LS4zNDdsLS41NTQtMi4yMTVhMSAxIDAgMCAwIC0uOTctLjc1OGgtMy4zMWExIDEgMCAwIDAgLS45Ny43NThsLS41NTQgMi4yMTVhMTAuMzgzIDEwLjM4MyAwIDAgMCAtMS42NjIuNjlsLTEuOTYxLTEuMTc3YTEgMSAwIDAgMCAtMS4yMjEuMTUxbC0yLjM0MSAyLjM0MWExIDEgMCAwIDAgLS4xNSAxLjIyMWwxLjE3NiAxLjk1OWExMC40NiAxMC40NiAwIDAgMCAtLjY5IDEuNjYybC0yLjIxNS41NTRhMSAxIDAgMCAwIC0uNzU4Ljk3djMuMzFhMSAxIDAgMCAwIC43NTguOTdsMi4yMTUuNTU0YTEwLjM4MyAxMC4zODMgMCAwIDAgLjY5IDEuNjYybC0xLjE3NyAxLjk1OWExIDEgMCAwIDAgLjE1IDEuMjIxbDIuMzQxIDIuMzQxYTEgMSAwIDAgMCAxLjIyMS4xNTFsMS45Ni0xLjE3NmExMC4zODMgMTAuMzgzIDAgMCAwIDEuNjYyLjY5bC41NTQgMi4yMTVhMSAxIDAgMCAwIC45Ny43NThoMy4zMWExIDEgMCAwIDAgLjk3LS43NThsLjU1NC0yLjIxNWExMC4zODMgMTAuMzgzIDAgMCAwIDEuNjYyLS42OWwxLjk2IDEuMTc2YTEgMSAwIDAgMCAxLjIyMS0uMTUxbDIuMzQxLTIuMzQxYTEgMSAwIDAgMCAuMTUtMS4yMjFsLTEuMTc2LTEuOTU5YTEwLjM4MyAxMC4zODMgMCAwIDAgLjY5LTEuNjYybDIuMjE1LS41NTRhMSAxIDAgMCAwIC43NTgtLjk3di0zLjMxYTEgMSAwIDAgMCAtLjc1OC0uOTd6bS0xLjI0MiAzLjQ5OS0yLjAxOC41YTEgMSAwIDAgMCAtLjcyNy43MjQgOC40NDcgOC40NDcgMCAwIDEgLS45MzEgMi4yNDUgMSAxIDAgMCAwIDAgMS4wMjZsMS4wNzYgMS43OS0xLjI0IDEuMjQxLTEuNzg2LTEuMDcxYTEgMSAwIDAgMCAtMS4wMjUgMCA4LjQ4NiA4LjQ4NiAwIDAgMSAtMi4yNDYuOTMzIDEgMSAwIDAgMCAtLjcyNC43MjZsLS41MDQgMi4wMTJoLTEuNzVsLS41LTIuMDE4YTEgMSAwIDAgMCAtLjcyNC0uNzI2IDguNDg2IDguNDg2IDAgMCAxIC0yLjI0Ni0uOTMzIDEgMSAwIDAgMCAtMS4wMjUgMGwtMS43OSAxLjA3Ny0xLjI0LTEuMjQxIDEuMDcxLTEuNzg1YTEgMSAwIDAgMCAwLTEuMDI2IDguNDQ3IDguNDQ3IDAgMCAxIC0uOTMxLTIuMjQ1IDEgMSAwIDAgMCAtLjcyNy0uNzI0bC0yLjAxMy0uNTA1di0xLjc0OGwyLjAxOC0uNWExIDEgMCAwIDAgLjcyNy0uNzI0IDguNDI1IDguNDI1IDAgMCAxIC45MzItMi4yNDUgMSAxIDAgMCAwIDAtMS4wMjZsLTEuMDc3LTEuNzkgMS4yNC0xLjI0MSAxLjc4NiAxLjA3MWExIDEgMCAwIDAgMS4wMjUgMCA4LjQ4NiA4LjQ4NiAwIDAgMSAyLjI0Ni0uOTMzIDEgMSAwIDAgMCAuNzI0LS43MjZsLjUtMi4wMThoMS43NWwuNSAyLjAxOGExIDEgMCAwIDAgLjcyNS43MjcgOC4zNjkgOC4zNjkgMCAwIDEgMi4yNDQuOTMyIDEgMSAwIDAgMCAxLjAyNiAwbDEuNzk0LTEuMDcxIDEuMjQgMS4yNDEtMS4wNzEgMS43ODVhMSAxIDAgMCAwIDAgMS4wMjYgOC40MjUgOC40MjUgMCAwIDEgLjkzMiAyLjI0NSAxIDEgMCAwIDAgLjcyNy43MjRsMi4wMTguNXoiIGZpbGw9IiMwMDAwMDAiLz48cGF0aCBkPSJtNDkgNDNhNiA2IDAgMSAwIDYgNiA2LjAwNiA2LjAwNiAwIDAgMCAtNi02em0wIDEwYTQgNCAwIDEgMSA0LTQgNCA0IDAgMCAxIC00IDR6IiBmaWxsPSIjMDAwMDAwIi8+PHBhdGggZD0ibTExIDM3aDEwdjJoLTEweiIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im0xMSA0MWgxNHYyaC0xNHoiIGZpbGw9IiMwMDAwMDAiLz48cGF0aCBkPSJtMTEgNDVoMTJ2MmgtMTJ6IiBmaWxsPSIjMDAwMDAwIi8+PHBhdGggZD0ibTExIDQ5aDE3djJoLTE3eiIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im0yMyAzN2g4djJoLTh6IiBmaWxsPSIjMDAwMDAwIi8+PHBhdGggZD0ibTMzIDM3aDJ2MmgtMnoiIGZpbGw9IiMwMDAwMDAiLz48cGF0aCBkPSJtMjcgNDFoMnYyaC0yeiIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im0zMCA0OWgydjJoLTJ6IiBmaWxsPSIjMDAwMDAwIi8+PHBhdGggZD0ibTkgNThoMjJ2MmgtMjJ6IiBmaWxsPSIjMDAwMDAwIi8+PC9zdmc+Cg==" />
+                      </div>
+                      <div class="image-process-text">
+                          <h2> Workflow Optimization </h2>
+                          <p> Lorem Ipsum is simply dummy printing and typesetting industrLorem Ipsum has been the indusstandard dummy text ever since  </p>
+                            
+                      </div>
+                      <a href="#learn"> Learn More </a>
+                  </div>
+                  </div>
+               <div class="col-sm-4">
+                  <div class="image-process">
+                      <div class="image-process-img">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ5NiA0OTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ5NiA0OTY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNDAyLjUyNCw0MzJsLTE4LjUyLTU1LjU2OGMtNi40NzItMTkuNC0yMi45ODQtMzMuNzItNDMuMTEyLTM3LjM4NGwtNTMuNDY0LTkuNzI4di00LjE0NCAgICBjOS4zMDQtNS40LDE3LjQtMTIuNjI0LDIzLjg0OC0yMS4xNzZoMTYuMTUyYzEzLjIzMiwwLDI0LTEwLjc2OCwyNC0yNHYtOTZjMC01Ny4zNDQtNDYuNjU2LTEwNC0xMDQtMTA0cy0xMDQsNDYuNjU2LTEwNCwxMDR2NTYgICAgYzAsMTUuNDI0LDEwLjk2OCwyOC4zMjgsMjUuNTEyLDMxLjMzNmM0LjQ4OCwyMi45OTIsMTguODU2LDQyLjQ0OCwzOC40ODgsNTMuODR2NC4xNDRsLTUzLjQ3Miw5LjcyOCAgICBjLTIwLjEyLDMuNjY0LTM2LjY0LDE3Ljk4NC00My4xMDQsMzcuMzg0bC0zLjIsOS42MDhsLTI3LjI0OC0yNy4yNDhjLTMuMTItMy4xMi0zLjEyLTguMiwwLTExLjMybDMxLjYtMzEuNTkybC01OS4zMTItNTkuMzEyICAgIEwxNi45OCwyOTIuMjhjLTEwLjU3NiwxMC41NzYtMTYuNCwyNC42NC0xNi40LDM5LjZzNS44MjQsMjkuMDE2LDE2LjQsMzkuNTkybDEwOC4xMiwxMDguMTJDMTM1LjY3Niw0OTAuMTY4LDE0OS43NCw0OTYsMTY0LjcsNDk2ICAgIGMxNC45NiwwLDI5LjAxNi01LjgzMiwzOS4zNDQtMTYuMTY4bDM4Ljk2OC0zNS43MDRMMjMwLjg2LDQzMkg0MDIuNTI0eiBNMzM1LjQyOCwyODBjMCw0LjQxNi0zLjU5Miw4LTgsOEgzMjAuNyAgICBjMi4zMi01LjI4OCw0LjA4LTEwLjg2NCw1LjIxNi0xNi42NjRjMy40MjQtMC43MTIsNi41NzYtMi4wNzIsOS41MTItMy43ODRWMjgweiBNMzI3LjQyOCwyNTMuNzc2di0yNy41NTIgICAgYzQuNzYsMi43NzYsOCw3Ljg4LDgsMTMuNzc2UzMzMi4xODgsMjUxLDMyNy40MjgsMjUzLjc3NnogTTE2Ny40MjgsMjUzLjc3NmMtNC43Ni0yLjc3Ni04LTcuODgtOC0xMy43NzZzMy4yNC0xMSw4LTEzLjc3NiAgICBWMjUzLjc3NnogTTE2Ny40MjgsMjAwdjkuMTM2Yy0yLjg0OCwwLjc0NC01LjUyLDEuODY0LTgsMy4zMTJWMTg0YzAtNDguNTIsMzkuNDgtODgsODgtODhzODgsMzkuNDgsODgsODh2MjguNDQ4ICAgIGMtMi40OC0xLjQ0OC01LjE1Mi0yLjU3Ni04LTMuMzEyVjIwMGgtOGMtMjMuNjU2LDAtNDUuODk2LTkuMjE2LTYyLjYzMi0yNS45NDRsLTkuMzY4LTkuMzY4bC05LjM2OCw5LjM2OCAgICBDMjIxLjMyNCwxOTAuNzg0LDE5OS4wODQsMjAwLDE3NS40MjgsMjAwSDE2Ny40Mjh6IE0xODMuNDI4LDI1NnYtNDAuMzA0YzI0LjAyNC0xLjgwOCw0Ni40MjQtMTEuNzIsNjQtMjguNDMyICAgIGMxNy41NzYsMTYuNzEyLDM5Ljk3NiwyNi42MzIsNjQsMjguNDMyVjI1NmMwLDExLjY2NC0zLjE4NCwyMi41NzYtOC42NTYsMzJoLTU1LjM0NHYxNmg0Mi4xOTJjLTExLjI4LDkuOTI4LTI2LjAyNCwxNi00Mi4xOTIsMTYgICAgQzIxMi4xNCwzMjAsMTgzLjQyOCwyOTEuMjg4LDE4My40MjgsMjU2eiBNMjcxLjQyOCwzMzIuMzEydjAuMzc2bC0yNCwyNGwtMjQtMjR2LTAuMzc2YzcuNTg0LDIuMzg0LDE1LjY0LDMuNjg4LDI0LDMuNjg4ICAgIFMyNjMuODQ0LDMzNC42OTYsMjcxLjQyOCwzMzIuMzEyeiBNMTI2LjAyLDM4MS40ODhjNC42MTYtMTMuODU2LDE2LjQxNi0yNC4wODgsMzAuNzkyLTI2LjcxMmw1NS45Mi0xMC4xNmwzNC42OTYsMzQuNjk2ICAgIGwzNC42ODgtMzQuNjg4bDU1LjkxMiwxMC4xNmMxNC4zNzYsMi42MjQsMjYuMTc2LDEyLjg0OCwzMC43OTIsMjYuNzEyTDM4MC4zMzIsNDE2SDIxNC44NmwtMzEuMTYtMzEuMTZsLTM0LjYyNCwzMS4zMiAgICBjLTMuMDE2LDMuMDMyLTguMjg4LDMuMDMyLTExLjMxMiwwbC0xNy40NzItMTcuNDcyTDEyNi4wMiwzODEuNDg4eiBNNTIuNjg0LDI3OS4xOTJsMzYuNjg4LDM2LjY4OGwtOC42ODgsOC42ODhMNDMuOTk2LDI4Ny44OCAgICBMNTIuNjg0LDI3OS4xOTJ6IE0xOTIuOTY0LDQ2OC4yOTZjLTcuNTUyLDcuNTM2LTE3LjYsMTEuNzA0LTI4LjI4LDExLjcwNGMtMTAuNjgsMC0yMC43MjgtNC4xNjgtMjguMjg4LTExLjcyTDI4LjI3NiwzNjAuMTY4ICAgIGMtNy41NTItNy41NTItMTEuNzEyLTE3LjYtMTEuNzEyLTI4LjI4YzAtMTAuNjg4LDQuMTYtMjAuNzM2LDExLjcxMi0yOC4yODhsNC40LTQuNGwzNi42ODgsMzYuNjg4bC0wLjI4OCwwLjI4OCAgICBjLTkuMzUyLDkuMzYtOS4zNTIsMjQuNTg0LDAsMzMuOTQ0bDU3LjM2OCw1Ny4zNjhjNC41MzYsNC41MjgsMTAuNTYsNy4wMzIsMTYuOTc2LDcuMDMyczEyLjQ0LTIuNDk2LDE2LjY4LTYuNzUybDAuNi0wLjUzNiAgICBsMzYuODU2LDM2Ljg1NkwxOTIuOTY0LDQ2OC4yOTZ6IE0yMDkuMzY0LDQ1My4yNTZsLTM2Ljc3Ni0zNi43NzZsMTAuNTY4LTkuNTUybDM2LjcxMiwzNi43MTJMMjA5LjM2NCw0NTMuMjU2eiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTQ3MS40MjgsMGgtMTEyYy0xMy4yMzIsMC0yNCwxMC43NjgtMjQsMjR2NjRjMCwxMy4yMzIsMTAuNzY4LDI0LDI0LDI0aDIxLjM2OGwtOC4yNzIsNDguMjQ4bDc3LjItNDguMjQ4aDIxLjcwNCAgICBjMTMuMjMyLDAsMjQtMTAuNzY4LDI0LTI0VjI0QzQ5NS40MjgsMTAuNzY4LDQ4NC42NiwwLDQ3MS40MjgsMHogTTQ3OS40MjgsODhjMCw0LjQwOC0zLjU5Miw4LTgsOGgtMjYuMjk2bC01MC44MDgsMzEuNzUyICAgIEwzOTkuNzcyLDk2aC00MC4zNDRjLTQuNDA4LDAtOC0zLjU5Mi04LThWMjRjMC00LjQwOCwzLjU5Mi04LDgtOGgxMTJjNC40MDgsMCw4LDMuNTkyLDgsOFY4OHoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxyZWN0IHg9IjM2Ny40MjgiIHk9IjMyIiB3aWR0aD0iOTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxyZWN0IHg9IjM2Ny40MjgiIHk9IjY0IiB3aWR0aD0iNjQiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxyZWN0IHg9IjQ0Ny40MjgiIHk9IjY0IiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yNDcuNDI4LDI0QzE0Mi45LDI0LDUyLjg2LDk2LjMwNCwyOS40NTIsMTk3LjE2bC0xNS4xNi0yNS4yNzJsLTEzLjcyLDguMjMybDI4LjEyLDQ2Ljg1Nmw0Ni44NTYtMjguMTJsLTguMjMyLTEzLjcyICAgIGwtMjEuNjgsMTMuMDA4QzY4LjMwOCwxMDUuODgsMTUxLjI3Niw0MCwyNDcuNDI4LDQwYzIxLjAxNiwwLDQxLjc1MiwzLjEyLDYxLjYzMiw5LjI4TDMxMy43OTYsMzQgICAgQzI5Mi4zOCwyNy4zNiwyNzAuMDUyLDI0LDI0Ny40MjgsMjR6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNDkxLjU0LDE3Ny4xMzZsLTQ2Ljg1Ni0yOC4xMmwtMjguMTEyLDQ2Ljg2NGwxMy43Miw4LjIzMmwxNC0yMy4zMzZjNy4zNjgsMjEuNTYsMTEuMTM2LDQ0LjExMiwxMS4xMzYsNjcuMjI0ICAgIGMwLDQ3LjU3Ni0xNi40OCw5NC4wODgtNDYuMzkyLDEzMC45NmwxMi40MjQsMTAuMDhjMzIuMjI0LTM5LjcxMiw0OS45NjgtODkuODA4LDQ5Ljk2OC0xNDEuMDQgICAgYzAtMjQuNDcyLTMuOTQ0LTQ4LjM2OC0xMS42MzItNzEuMjQ4bDIzLjUxMiwxNC4xMDRMNDkxLjU0LDE3Ny4xMzZ6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+                      </div>
+                      <div class="image-process-text">
+                          <h2> Expensical Support </h2>
+                          <p> Lorem Ipsum is simply dummy printing and typesetting industrLorem Ipsum has been the indusstandard dummy text ever since  </p>
+                            
+                      </div>
+                      <a href="#learn"> Learn More </a>
+                  </div>
+                  </div>
+              
+              
+          </div>
+          </div>
+      </div>
+      
+      </div>
+      
+      
+      <div class="container">
+      <div class="row">
+      <div class="col-sm-6">
+      
+          <div class="side-b-f">
+          <img src="img/befour-after.png">
+          </div>
+          </div>
+          
+          
+          <div class="col-sm-6">
+      
+          <div class="side-text">
+              <h1> Why Choose us ? </h1>
+              <p> As soon as the photos have been taken and the best skis selected, the next step is finishing. In addition to the exemption, this process sometimes includes color correction, retouching and other adaptations such as setting shadows or reflections for a high-quality look. Greater adjustments or the customization of the gilders are often necessary in order to meet the specifications of various sales platforms such as Amazon or eBay.
+ </p>
+                <div class="side-text-down">
+                  <a href="#learnmore"> Learn More</a>
+              </div>
+          </div>
+              
+            
+              
+          </div>
+      
+          </div>
+      </div>
+      
+      
+      
+      <div class="get-started">
+      <div class="container">
+      <div class="row">
+          <div class="col-sm-6">
+              <div class="gs-content">
+              
+                  <div class="gs-head">
+                      <h1> Let’s Get Started </h1>
+                  </div>
+                  <div class="gs-text">
+                      <p> Lorem Ipsum is simply dummy tprinting and typesetting industr Lorem Ipsum has been the indus standard dummy text ever sinceLorem Ipsum is simply dummy tprinting and typesetting industr Lorem Ipsum has been the indus standard dummy text ever since   </p>
+                  </div>
+              </div>
+              
+          </div>
+          
+          <div class="col-sm-6">
+              <div class="gs-counter">
+            <div class="progressbar" data-animate="false">
+    <div class="circle" data-percent="70">
+      <div></div>
+      <p>Per Month</p>
+    </div>
+  </div>
+  <div class="progressbar" data-animate="false">
+    <div class="circle" data-percent="90">
+      <div></div>
+      <p>Daily</p>
+    </div>
+  </div>
+  <div class="progressbar" data-animate="false">
+    <div class="circle" data-percent="75">
+      <div></div>
+      <p>Per Yearly</p>
+    </div>
+  </div>
+  
+              </div>
+          </div>
+          </div>
+          </div>
+      </div>
+      
+      
+    <!--  <div class="services">
+          <div class="service-main">
+      <div class="service-head">
+          <h1> Find out what we can do for you </h1>
+          </div>
+          
+          <div class="service-list">
+      
+        <ul>
+        <li>
+            
+            <a href="#">
+                
+                <div class="backgro-image">
+                <img src="https://www.bright-river.com/wp-content/uploads/2017/10/Icon_retouch_2x100_100_small_lime.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p>Background Removal </p>
+                </div>
+            
+            
+            
+            
+            </a>
+            
+            </li>
+        <li><a href="#">
+            
+            <div class="backgro-image">
+                <img src="https://www.bright-river.com/wp-content/uploads/2017/10/Icon_recolour_2x_small_100_100_lime.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p>Image Retouching </p>
+                </div>
+            
+            
+            
+            
+            
+            
+            
+            </a></li>
+        <li><a href="#">
+            
+            
+            <div class="backgro-image">
+                <img src="https://www.bright-river.com/wp-content/uploads/2017/10/Icon_invisible_mannequin_2x_100_100_small_lime.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p>Ghost manniquin </p>
+                </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            </a></li>
+        <li><a href="#">
+            
+            <div class="backgro-image">
+                <img src="https://www.bright-river.com/wp-content/uploads/2017/10/Icon_shadow_reflection_2x100_100_small_lime-copy.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p>Shadow / Reflection </p>
+                </div>
+            
+            
+            
+            
+            </a></li>
+        <li><a href="#">
+            
+            
+            <div class="backgro-image">
+                <img src="https://www.bright-river.com/wp-content/uploads/2017/10/Icon_masking_2x_100_100_small_lime.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p>Image Masking </p>
+                </div>
+            
+            
+            
+            
+            
+            
+           
+            
+            </a></li>
+        <li><a href="#">
+             <div class="backgro-image">
+                <img src=" https://www.bright-river.com/wp-content/uploads/2017/10/Icon_colour_2x_100_100_small_lime.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p> Image Enhancement </p>
+                </div>
+            
+           
+            
+            
+            
+            
+            </a></li>
+        </ul>
+          </div>
+          </div>
+          
+          
+          <div class="service-result">
+      
+              
+          </div>
+      </div>
+      -->
+      
+      <div class="service-main">
+      <div class="container">
+       <div class="content service-head">
+        <h1>Find out what we can do for you</h1>
+        <div class="ah-tab-wrapper">
+            <div class="ah-tab service-list " >
+                <a class="ah-tab-item" data-ah-tab-active="true" href="">
+                
+                 <div class="backgro-image">
+                <img src="https://www.bright-river.com/wp-content/uploads/2017/10/Icon_retouch_2x100_100_small_lime.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p>Background Removal </p>
+                </div>
+                    
+                </a>
+                <a class="ah-tab-item" href="">
+                
+                <div class="backgro-image">
+                <img src="https://www.bright-river.com/wp-content/uploads/2017/10/Icon_recolour_2x_small_100_100_lime.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p>Image Retouching </p>
+                </div>
+                
+                </a>
+                <a class="ah-tab-item" href="">
+                
+                <div class="backgro-image">
+                <img src="https://www.bright-river.com/wp-content/uploads/2017/10/Icon_invisible_mannequin_2x_100_100_small_lime.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p>Ghost manniquin </p>
+                </div>
+                
+                </a>
+                <a class="ah-tab-item" href="">
+                
+                 <div class="backgro-image">
+                <img src="https://www.bright-river.com/wp-content/uploads/2017/10/Icon_shadow_reflection_2x100_100_small_lime-copy.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p>Shadow / Reflection </p>
+                </div>
+                </a>
+                <a class="ah-tab-item" href="">
+                
+                <div class="backgro-image">
+                <img src="https://www.bright-river.com/wp-content/uploads/2017/10/Icon_masking_2x_100_100_small_lime.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p>Image Masking </p>
+                </div>
+                
+                </a>
+                 <a class="ah-tab-item" href=""> 
+                <div class="backgro-image">
+                <img src=" https://www.bright-river.com/wp-content/uploads/2017/10/Icon_colour_2x_100_100_small_lime.png">
+                </div>
+                   <div class="backgro-text"> 
+                       <p>Image Enhancement  </p>
+                </div>
+                
+                </a>
+            </div>
+        </div>
+           
+        
+    </div>
+      </div>
+      </div>
+      
+      
+      <div class="service-result">
+          <div class="container">
+              <div class="row">
+      <div class="content">
+          <div class="ah-tab-content-wrapper">
+            <div class="ah-tab-content" data-ah-tab-active="true">
+                
+                <div class="col-sm-6">
+                <div class="services-left-text">
+                <div class="service-left-head">
+                    <h1> Background Remover </h1>
+                    </div>
+                    
+                    <div class="service-left-para">
+                        <p>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+                    </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-sm-6">
+                <div class="service-right-b-a">
+                <div id="slider" class="beer-slider" data-beer-label="before">
+  <img src="img/after.png" alt="">
+  <div class="beer-reveal" data-beer-label="after">
+    <img src="img/befou.jpg" alt="">
+  </div>
+</div>
+                
+                
+                </div>
+                
+            </div>
+                   
+            </div>
+            <div class="ah-tab-content">
+                
+                <div class="col-sm-6">
+                <div class="services-left-text">
+                <div class="service-left-head">
+                    <h1> Image Retouching </h1>
+                    </div>
+                    
+                    <div class="service-left-para">
+                        <p>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                    </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-sm-6">
+                <div class="service-right-b-a">
+                
+                <div id="re-slider" class="beer-slider" data-beer-label="before">
+  <img src="img/retoch-befour.png" alt="Original - Man holding beer">
+  <div class="beer-reveal" data-beer-label="after">
+    <img src="img/retoch-after.png" alt="Processed - Man holding beer">
+  </div>
+</div>
+                
+                </div>
+                
+            </div>
+                   
+            </div>
+            <div class="ah-tab-content">
+                 
+                <div class="col-sm-6">
+                <div class="services-left-text">
+                <div class="service-left-head">
+                    <h1> Ghost manniquin </h1>
+                    </div>
+                    
+                    <div class="service-left-para">
+                        <p>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                    </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-sm-6">
+                <div class="service-right-b-a">
+                
+                <div id="re-slider" class="beer-slider" data-beer-label="before">
+  <img src="img/retoch-befour.png" alt="Original - Man holding beer">
+  <div class="beer-reveal" data-beer-label="after">
+    <img src="img/retoch-after.png" alt="Processed - Man holding beer">
+  </div>
+</div>
+                
+                </div>
+                
+            </div>
+                   
+            </div>
+            <div class="ah-tab-content">
+                
+                <div class="col-sm-6">
+                <div class="services-left-text">
+                <div class="service-left-head">
+                    <h1> Shadow / Reflection </h1>
+                    </div>
+                    
+                    <div class="service-left-para">
+                        <p>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                    </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-sm-6">
+                <div class="service-right-b-a">
+                
+                <div id="re-slider" class="beer-slider" data-beer-label="before">
+  <img src="img/retoch-befour.png" alt="Original - Man holding beer">
+  <div class="beer-reveal" data-beer-label="after">
+    <img src="img/retoch-after.png" alt="Processed - Man holding beer">
+  </div>
+</div>
+                
+                </div>
+                
+            </div>
+                   
+            </div>
+            <div class="ah-tab-content">
+                
+                <div class="col-sm-6">
+                <div class="services-left-text">
+                <div class="service-left-head">
+                    <h1> Image Masking </h1>
+                    </div>
+                    
+                    <div class="service-left-para">
+                        <p>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                    </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-sm-6">
+                <div class="service-right-b-a">
+                
+                <div id="re-slider" class="beer-slider" data-beer-label="before">
+  <img src="img/retoch-befour.png" alt="Original - Man holding beer">
+  <div class="beer-reveal" data-beer-label="after">
+    <img src="img/retoch-after.png" alt="Processed - Man holding beer">
+  </div>
+</div>
+                
+                </div>
+                
+            </div>
+                   
+            </div>
+            
+            <div class="ah-tab-content">
+               
+                <div class="col-sm-6">
+                <div class="services-left-text">
+                <div class="service-left-head">
+                    <h1> Image Enhancement </h1>
+                    </div>
+                    
+                    <div class="service-left-para">
+                        <p>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                    </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-sm-6">
+                <div class="service-right-b-a">
+                
+                <div id="re-slider" class="beer-slider" data-beer-label="before">
+  <img src="img/retoch-befour.png" alt="Original - Man holding beer">
+  <div class="beer-reveal" data-beer-label="after">
+    <img src="img/retoch-after.png" alt="Processed - Man holding beer">
+  </div>
+</div>
+                
+                </div>
+                
+            </div>
+                   
+            </div>
+        </div>
+           
+          
+      </div>
+              </div>
+          </div>
+      </div>
+      <div class="detail">
+      <div class="container">
+      <div class="row">
+      <div class="col-sm-6">
+      <div class="magni-image">
+      <!--<img src="https://images.unsplash.com/photo-1563598629878-9e88fae5b315?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80s" class="demo-img pos-center">-->
+          <img src="img/magnifing-image.png" class="demo-img pos-center">
+          
+          </div>
+          </div>
+          
+          
+          <div class="col-sm-6">
+            <div class="magni-content">
+            <div class="magni-head">
+                <h1> Magnifing to see Image Detailing... </h1>
+                </div>
+                <div class="magni-text">
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                </div>
+                </div>
+              </div>
+          </div>
+          </div>
+          </div>
+      
+      
+      
+      
+      <div class="how-i-work">
+      <div class="container">
+      <div class="row">
+      <div class="col-sm-7">
+      
+          <div class="work-sec">
+          <img src="img/relaction.png">
+          
+          
+          </div>
+          
+          </div>
+          
+          
+          
+          
+          <div class="col-sm-5">
+      
+          <div class="work-point">
+      <div class="work-point-head">
+          <h1> How I Work </h1>
+              </div>
+              
+              <div class="work-point-text">
+                  <ul>
+                      <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </li>
+                      <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </li>
+                      <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </li>
+                      <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </li>
+                  </ul>
+                  
+                  <a href="#readmore">Read More</a>
+                  
+                  
+              </div>
+          </div>
+          
+          </div>
+          </div>
+      </div>
+      </div>
+      
+      
+      <div class="blog">
+        <div class="container">
+            <div class="col-sm-12">
+                <div class="blog-slider">
+                    <div class="blog-head">
+                        <h1>Check latest news amd Insights</h1>
+                    </div>
+                    <div class="blog-slider-card">
+                        <div class="frame">
+                        <div class="fr-box-image">
+                        <img src="img/bird.png" alt="bird"/>
+                        </div>
+                        <div class="para-pad">
+                        <div class="fr-head">
+                        <h3>Scalability and Visual</h3>
+                        </div>
+                        
+                        <div class="fr-para">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                        <div class="fr-btn">
+                            <a href="#Read More">Read More</a>
+                        </div>
+                            </div>
+                    </div>
+                       <div class="frame">
+                        <div class="fr-box-image">
+                        <img src="img/bird.png" alt="bird"/>
+                        </div>
+                        <div class="para-pad">
+                        <div class="fr-head">
+                        <h3>Scalability and Visual</h3>
+                        </div>
+                        
+                        <div class="fr-para">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                        <div class="fr-btn">
+                            <a href="#Read More">Read More</a>
+                        </div>
+                            </div>
+                    </div>
+                        <div class="frame">
+                        <div class="fr-box-image">
+                        <img src="img/bird.png" alt="bird"/>
+                        </div>
+                        <div class="para-pad">
+                        <div class="fr-head">
+                        <h3>Scalability and Visual</h3>
+                        </div>
+                        
+                        <div class="fr-para">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                        <div class="fr-btn">
+                            <a href="#Read More">Read More</a>
+                        </div>
+                            </div>
+                    </div>
+                        <div class="frame">
+                        <div class="fr-box-image">
+                        <img src="img/bird.png" alt="bird"/>
+                        </div>
+                        <div class="para-pad">
+                        <div class="fr-head">
+                        <h3>Scalability and Visual</h3>
+                        </div>
+                        
+                        <div class="fr-para">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                        <div class="fr-btn">
+                            <a href="#Read More">Read More</a>
+                        </div>
+                            </div>
+                    </div>
+                        <div class="frame">
+                        <div class="fr-box-image">
+                        <img src="img/bird.png" alt="bird"/>
+                        </div>
+                        <div class="para-pad">
+                        <div class="fr-head">
+                        <h3>Scalability and Visual</h3>
+                        </div>
+                        
+                        <div class="fr-para">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                        <div class="fr-btn">
+                            <a href="#Read More">Read More</a>
+                        </div>
+                            </div>
+                    </div>
+                        <div class="frame">
+                        <div class="fr-box-image">
+                        <img src="img/bird.png" alt="bird"/>
+                        </div>
+                        <div class="para-pad">
+                        <div class="fr-head">
+                        <h3>Scalability and Visual</h3>
+                        </div>
+                        
+                        <div class="fr-para">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                        <div class="fr-btn">
+                            <a href="#Read More">Read More</a>
+                        </div>
+                            </div>
+                    </div>
+         
+                    </div>
+          
+          
+          
+          
+                </div>
+            </div>
+          </div>
+      </div>
+      
+      
+      
+      <div class="work-once">
+      
+      <div class="work-once-text">
+          <h2> Photopixels is Best Junction 
+for E-commerce product editing  </h2>
+          
+          <a href="#"> Give us a Chance to Work Once </a>
+          </div>
+      
+      
+      </div>
+      
+      <footer>
+          <div class="container">
+          <div class="row">
+          <div class="col-sm-5">
+              <div class="discrip-footer">
+              <div class="logo-footer">
+                  <img src="img/logo.png">
+                  
+                  </div>
+                  
+                  <div class="footer-text">
+                      <p> Lorem Ipsum is simply dummy tprinting and typesetting industr Lorem Ipsum has been the indus standard dummy text ever sinceLorem Ipsum is simply dummy tprinting and typesetting industr Lorem Ipsum has been the indus standard dummy text ever since   </p>
+                  </div>
+                  
+                  
+                  <div class="footer-text-menu">
+                  <ul>
+                      <li><a href="#">About Us </a></li>
+                      <li><a href="#"> Blog</a></li>
+                      <li><a href="#"> FAQs</a></li>
+                      <li><a href="#"> Help &amp; Support</a></li>
+                      
+                      </ul>
+                  </div>
+                  
+                  
+                  <div class="footer-text-contact">
+                      <h4> Callus or Whats app </h4>
+                      <p> <a href="#"> +1 - 5524521425 </a> </p>
+                  </div>
+              </div>
+              </div>
+              
+              <div class="col-sm-3">
+              <div class="key-feature">
+                  <h3> Key Feature </h3>
+                  <ul>
+                      <li> <a href="#"> Image Editing  </a> </li>
+                      <li> <a href="#"> 3d Modling </a> </li>
+                      <li> <a href="#"> Video Editing  </a> </li>
+                      <li> <a href="#"> Strem Post </a> </li>
+                      <li> <a href="#"> How it Works  </a> </li>
+                      
+                      
+                      
+                  </ul>
+                  </div>
+              </div>
+              
+              
+              
+              <div class="col-sm-4">
+              <div class="conatc-from">
+                   <form id="contact" action="" method="post">
+    <h3>Contact for equery</h3>
+    <h4>Our mission is to provide effectual 
+time and pre-eminent
+</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" >
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" >
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" >
+    </fieldset>
+   
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." ></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" >Submit</button>
+    </fieldset>
+  </form>
+ 
+                  </div>
+              </div>
+              
+              </div>
+          </div>
+      </footer>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js"></script>
+
+      <script src="js/float-panel.js"></script>
+      <script src="js/counter.js"></script>
+      <script src="js/main.js"></script>
+      <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.1/dist/circle-progress.js"></script>
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+      <script src="js/jquery.horizontalmenu.js"></script>
+      <script src="https://unpkg.com/beerslider/dist/BeerSlider.js"></script> 
+      <script src='https://rawgit.com/BGStock/jquery-background-video/master/jquery.background-video.js'></script>
+      <script>
+          new BeerSlider(document.getElementById('slider'));
+           new BeerSlider(document.getElementById('re-slider'));
+          
+      </script>
+  </body>
+</html>
